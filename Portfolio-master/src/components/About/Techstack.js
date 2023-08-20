@@ -1,25 +1,17 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiTypescript,
-  SiNestjs,SiC, SiPython, SiMysql, SiApachehadoop, SiRedux, SiExpress
+  SiNestjs,SiC, SiPython, SiMysql, SiApachehadoop, SiRedux, SiExpress, SiReactquery
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -58,13 +50,16 @@ function Techstack() {
         <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <SiMysql size={80}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachehadoop />
+        <SiApachehadoop  size={80}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiJava size={80} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReactquery size={80} />
       </Col>
     </Row>
   );
