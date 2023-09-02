@@ -13,8 +13,8 @@ function AboutCard() {
             <br /> I am a final year student pursuing Master of Computer Applications
      at Christ University, Bangalore.
             <br />
-            Additionally, I am currently employed as a software developer intern at
-            Givfin.
+            Additionally, I worked as a software developer intern at 
+            <a href="https://givfin.com/" style={{textDecoration:"none"}}><span className="purple"> <strong>Givfin</strong></span></a>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +24,7 @@ function AboutCard() {
               <ImPointRight /> Cycling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Reading Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
